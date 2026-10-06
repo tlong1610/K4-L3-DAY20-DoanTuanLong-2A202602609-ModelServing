@@ -1,0 +1,34 @@
+{
+  "primary": {
+    "label": "primary",
+    "quant": "UD-Q4_K_XL",
+    "model_file": "gemma-4-E2B-it-UD-Q4_K_XL.gguf",
+    "n_requests": 10,
+    "load_ms": 4379.4,
+    "ttft_p50": 218.1,
+    "ttft_p95": 498.5,
+    "tpot_p50": 12.86,
+    "tpot_p95": 13.26,
+    "e2e_p50": 1021.3,
+    "e2e_p95": 1325.1,
+    "e2e_p99": 1325.1,
+    "decode_tok_s": 77.8,
+    "size_gb": 2.97
+  },
+  "compare": {
+    "label": "compare",
+    "quant": "UD-Q2_K_XL",
+    "model_file": "gemma-4-E2B-it-UD-Q2_K_XL.gguf",
+    "n_requests": 10,
+    "load_ms": 4706.7,
+    "ttft_p50": 218.6,
+    "ttft_p95": 335.2,
+    "tpot_p50": 13.05,
+    "tpot_p95": 13.21,
+    "e2e_p50": 1036.1,
+    "e2e_p95": 1158.6,
+    "e2e_p99": 1158.6,
+    "decode_tok_s": 76.6,
+    "size_gb": 2.24
+  }
+}
